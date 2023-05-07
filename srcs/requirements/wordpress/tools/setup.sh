@@ -25,4 +25,4 @@ wp-cli theme activate PopularFX --allow-root
 
 echo "wordpress ready, port is 9000"
 
-exec /usr/sbin/php-fpm7.4 -F
+exec /usr/sbin/php-fpm7.3 -F
