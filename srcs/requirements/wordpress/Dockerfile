@@ -2,7 +2,7 @@ FROM debian:buster
 
 EXPOSE 9000
 
-COPY ./tools/setup.sh /setup.sh
+COPY ./tools/setup.sh ./setup.sh
 
 RUN apt-get update && \
     apt-get upgrade -y && \
